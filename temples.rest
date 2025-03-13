@@ -1,0 +1,8 @@
+### Get All Contacts
+GET http://localhost:8080/v1/temples HTTP/1.1
+apiKey: Ezl0961tEpx2UxTZ5v2uKFK91qdNAr5npRlMT1zLcE3Mg68Xwaj3N8Dyp1R8IvFenrVwHRllOUxF0Og00l0m9NcaYMtH6Bpgdv7N
+
+### Get Contact by ID
+GET http://localhost:8080/v1/temples/67cfc0e1424e74b3b2dffada HTTP/1.1
+apiKey: Ezl0961tEpx2UxTZ5v2uKFK91qdNAr5npRlMT1zLcE3Mg68Xwaj3N8Dyp1R8IvFenrVwHRllOUxF0Og00l0m9NcaYMtH6Bpgdv7N
+
