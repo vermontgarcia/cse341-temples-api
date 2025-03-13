@@ -6,13 +6,11 @@ app
   .use(cors())
   .use(express.json())
   .use(express.urlencoded({ extended: true }))
-  .use("/", require("./routes"));
+  .use("/", require("./src/routes"));
 
-const db = require("./models");
+const db = require("./src/models");
 db.mongoose
   .connect(db.url, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
     dbName: db.dbName,
   })
   .then(() => {
